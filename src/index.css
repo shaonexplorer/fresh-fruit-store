@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar-1 {
+  transform: translateY(7px) rotate(-45deg);
+}
+
+.bar-2 {
+  opacity: 0;
+}
+
+.bar-3 {
+  transform: translateY(-7px) rotate(45deg);
+}
